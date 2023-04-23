@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="app.css">
+    <link href="https://fonts.googleapis.com/css2?family=Caveat&family=Kalam:wght@300&family=Lora&family=Satisfy&display=swap" rel="stylesheet">
+    <title>Document</title>
+</head>
+<style>
+    .upper {
+    color: black;
+    border: 1px solid black;
+    margin-left: 200px;
+    margin-right: 400px;
+}
+
+
+.nav {
+    display: flex;
+    height: 50px;
+    justify-content: space-around;
+    align-items: center;
+    background-color: aqua;
+    margin-left: 200px;
+    margin-right: 400px;
+}
+.john {
+    margin-top: 2%;
+    height: 300px;
+    display: flex;
+    border: 2px solid red;
+    border-radius: 10px;
+    gap: 4rem;
+    align-items: center;
+    margin-left: 200px;
+    margin-right: 400px;
+}
+
+img {
+    width: 200px;
+}
+
+
+.img1, .img2, .img3 {
+    margin-left: 2rem;
+    width: 150px;
+}
+
+.rightside {
+    display: flex;
+    flex-direction: column;
+}
+.john{
+    background-color: rgb(121, 164, 164);
+}
+::-webkit-scrollbar{
+        width: 10px;
+    }
+    ::-webkit-scrollbar-track{
+        background: #f1f1f1;
+    }
+    ::-webkit-scrollbar-thumb{
+        background: #888;
+    }
+    ::-webkit-scrollbar-thumb:hover{
+        background: #555;
+    }
+</style>
+
+<body>
+
+    <div class="wrapper">
+
+        <hr class="upper">
+
+        <div class="nav" style="font-family: 'Kalam', cursive;">
+            <div class="items">Home</div>
+            <div class="items">Bollywood</div>
+            <div class="items">Hollywood</div>
+            <div class="items">South Indian</div>
+            <div class="items">Follow(Insta)</div>
+        </div>
+        <hr class="lower">
+
+
+        <div class="john">
+
+
+            <div ><img class="img1" src="https://m.media-amazon.com/images/M/MV5BMDExZGMyOTMtMDgyYi00NGIwLWJhMTEtOTdkZGFjNmZiMTEwXkEyXkFqcGdeQXVyMjM4NTM5NDY@._V1_.jpg" alt=""></div>
+
+
+            <div class="rightside">
+
+                <div class="heading">
+                    <h1>John Wick:Chapter-4</h1>
+                </div>
+
+                <div class="pg">
+                    <p>Jhon Wick: Chapter 4 is a 2023 American neo-noir action thriller film directed by
+                        Chad Stahelski and written by Shay Hatten and Michael Finch. The sequel
+                        to Jhon Wick: Chapter 3 - Parabellum (2019) and the fourth installement
+                        in the Jhon Wick franchise, it stars Keanu Reeves as the title character,
+                        alongside Donnie Yen, Bill Skarsgard, Laurence Fishburane, Hiroyuki Sanada,
+                        Shamier Anderson, Lance Reddick, Rina Sawayama, Scott Adkins, Claney Brown
+                        and Ian Mcshane. In the film, Jhon Wick sets out to get revenge on the High
+                        Table and those who left him for dead.</p>
+                </div>
+
+            </div>
+
+        </div>
+
+
+        <div class="john">
+
+
+            <div><img class="img2" src="https://assets.gadgets360cdn.com/pricee/assets/product/202301/Bholaa_1674473942.jpg" alt=""></div>
+
+
+            <div class="rightside">
+
+                <div class="heading">
+                    <h1>Bhola</h1>
+                </div>
+
+                <div class="pg">
+                    <p>Bholaa is a 2023 Indian Hindi-language action-adventure directed by Ajay Devgn and jointly produced by
+                        Ajay Devyn FFiIms, Reliance Entertainment, T-Series Films and Dream Warrior Pictures, It is a remake of the 2019 Tamil
+                        film Kalthl and stars Devgn the titular role alongside Tabu, Deepak Dobnyal, Sanjay Mishra, Gajraj Rao and Vmeet
+                        Kumar while Amala Paul, Abhrshek Bachchan and Raal Laxmi make spectal appearances. The film follows an ex-convict
+                        who battles criminals while transporting a truck of poisoned cops to the hospital in exchange for meeting his daughter
+                        aner ten years of imprisonment</p>
+                </div>
+
+            </div>
+
+        </div>
+
+        <div class="john">
+
+
+            <div><img class="img3" src="C:\Users\Pranav\Downloads\Avatar_(2009_film)_poster.jpg" alt=""></div>
+
+
+            <div class="rightside">
+
+                <div class="heading">
+                    <h1>Avatar: The Way of Water</h1>
+                </div>
+
+                <div class="pg">
+                    <p>Avatar The Way of Water is a 2022 American eptc science fiction film directed and produced by James Cameron- He co-
+                        wrote the screenplay With Rick Jaffa and Amanda Silver from a story the tno wrote with Josh Friedman and Shane
+                        Salemo. Distributed by 20th Century Studios: It is the sequel to Avatar (2009) and the second installment tn the Avatar film
+                        series. Cast members Sam Worthington, Zoe Saldana, Stephen Lang, Joel David Moore, CCH Pounder, Giovanni Rlbrsi,
+                        Dileep Rao. and Matt Gerald reprise their roles from the original film, with Sigourney Weaver returning in an additional
+                        role[6] while Kate Winslet joined the cast</p>
+                </div>
+
+            </div>
+
+        </div
+
+
+    </div>
+
+
+
+</body>
+
+</html>
